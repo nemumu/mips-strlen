@@ -10,7 +10,7 @@ main:
         jr      $ra
         nop
 
-# $t0に$a0の作業用コピー
+# $t0と$t1に$a0の作業用コピー
 strlen:
         addiu   $sp,$sp,-4
         add     $t0, $a0,$zero
