@@ -24,7 +24,7 @@ L1:
 L2:
 	# 元のアドレスと移動したアドレスとの差を取る
 	sub	$t2,$t0, $t1
-	add	$v0,$zero,$t2	# return i
+	add	$v0,$zero,$t2	# return $a0 - $t0
 	lw	$s0,0($sp)
 	addi	$sp,$sp,4
 	jr	$ra
